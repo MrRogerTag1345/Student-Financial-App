@@ -1,4 +1,4 @@
-# Student Financial Application  - UX Design Project
+# Student Financial Application  - Web Aplication Project
 Hi there! Welcome to the Student Financial App. This project is a web application that is intended to help students manage there finances. It offers tools to track the budget/balance to setting financial goals. NOTE: This project is still under development.
 ## Features
 
