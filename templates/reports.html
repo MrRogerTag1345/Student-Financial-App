@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Financial</title>
+	<link rel="stylesheet" type="text/css" href="../static/index.css">
+</head>
+<body>
+	<header>
+		<h1>Student Financial</h1>
+		<nav>
+			<ul>
+				<li><a href="/">Dashboard</a></li>
+				<li><a href="/goals">Goals</a></li>
+				<li><a href="/expenses">Expenses</a></li>
+				<li><a href="/income">Income</a></li>
+				<li><a href="/reports">Reports</a></li>
+				<li><a href="/settings">Settings</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h2>Reports</h2>
+		<p>Select a date range to generate a report:</p>
+		<form>
+			<label for="start-date">Start Date:</label>
+			<input type="date" id="start-date" name="start-date">
+			<label for="end-date">End Date:</label>
+			<input type="date" id="end-date" name="end-date">
+			<button type="submit">Generate Report</button>
+		</form>
+		<div class="report-container">
+			<h3>Report Summary</h3>
+			<ul>
+				<li>Total Income: $500.00</li>
+				<li>Total Expenses: $300.00</li>
+				<li>Net Income: $200.00</li>
+			</ul>
+			<h3>Expense Breakdown</h3>
+			<canvas id="expense-chart"></canvas>
+		</div>
+	</section>
+	<footer>
+		<p>Copyright &copy; 2023 Student Financial App</p>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

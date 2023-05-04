@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Student Financial</title>
+	<link rel="stylesheet" type="text/css" href="../static/index.css">
+</head>
+<body>
+	<header>
+		<h1>Student Financial</h1>
+		<nav>
+			<ul>
+				<li><a href="/">Dashboard</a></li>
+				<li><a href="/goals">Goals</a></li>
+				<li><a href="/expenses">Expenses</a></li>
+				<li><a href="/income">Income</a></li>
+				<li><a href="/reports">Reports</a></li>
+				<li><a href="/settings">Settings</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+		<h2>Goals</h2>
+		<p>Enter your goals below:</p>
+		<form>
+			<label for="goal-name">Goal Name:</label>
+			<input type="text" id="goal-name" name="goal-name" required>
+
+			<label for="goal-amount">Goal Amount:</label>
+			<input type="number" id="goal-amount" name="goal-amount" required>
+
+			<label for="target-date">Target Date:</label>
+			<input type="date" id="target-date" name="target-date" required>
+
+			<label for="current-progress">Current Progress:</label>
+			<input type="number" id="current-progress" name="current-progress" required>
+
+			<label for="recurring">Recurring: <select id="category" name="category">
+				<option value="N/A">N/A</option>
+				<option value="Weekly">Weekly</option>
+				<option value="Bi-Weekly">Bi-Weekly</option>
+                <option value="Monthly">Monthly</option>
+                <option value="Annually">Annually</option>
+			</select></label>
+
+			<button type="submit">Save Goal</button>
+		</form>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 Student Financial App</p>
+	</footer>
+</body>
+</html>

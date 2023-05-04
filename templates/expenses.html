@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Financial</title>
+	<link rel="stylesheet" type="text/css" href="../static/index.css">
+</head>
+<body>
+	<header>
+		<h1>Student Financial</h1>
+		<nav>
+			<ul>
+				<li><a href="/">Dashboard</a></li>
+				<li><a href="/goals">Goals</a></li>
+				<li><a href="/expenses">Expenses</a></li>
+				<li><a href="/income">Income</a></li>
+				<li><a href="/reports">Reports</a></li>
+				<li><a href="/settings">Settings</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h2>Expenses</h2>
+		<p>Enter your expenses below:</p>
+		<form>
+			<label for="category">Category:</label>
+			<select id="category" name="category">
+				<option value="groceries">Groceries</option>
+				<option value="utilities">Utilities</option>
+				<option value="transportation">Transportation</option>
+			</select>
+			<label for="amount">Amount:</label>
+			<input type="text" id="amount" name="amount">
+			<label for="date">Date:</label>
+			<input type="date" id="date" name="date">
+			<label for="recurring">Recurring: <select id="category" name="category">
+				<option value="N/A">N/A</option>
+				<option value="Weekly">Weekly</option>
+				<option value="Bi-Weekly">Bi-Weekly</option>
+                <option value="Monthly">Monthly</option>
+                <option value="Annually">Annually</option>
+			</select></label>
+			<button type="submit">Add Expense</button>
+		</form>
+	</section>
+	<footer>
+		<p>Copyright &copy; 2023 Student Financial App</p>
+	</footer>
+</body>
+</html>
