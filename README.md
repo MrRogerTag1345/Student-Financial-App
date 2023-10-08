@@ -1,12 +1,13 @@
-# Student Financial Application  - Web Aplication Project
-Hi there! Welcome to the Student Financial App. This project is a web application that is intended to help students manage there finances. It offers tools to track the budget/balance to setting financial goals. NOTE: This project is still under development.
+# Student Financial Application  - Web Application Project
+Hi there! Welcome to the Student Financial App. This project is a web application that is intended to help students manage their finances. It offers tools to track the budget/balance to set financial goals. NOTE: This project is still under development.
+
 ## Features
 
-Expense tracking: The app allows students to track their expenses by category, such as food, transportation, entertainment, and school supplies. Students can easily input their expenses and categorize them in the app, and view their spending history by category and over time.
+Expense tracking: The app allows students to track their expenses by category, such as food, transportation, entertainment, and school supplies. Students can easily input their expenses categorize them in the app, and view their spending history by category and over time.
 
 Financial goal setting: The app allows students to set financial goals, such as saving for a trip or paying off student loans. Students can track their progress towards their goals and receive personalized recommendations for how to reach them faster.
 
-Expense analysis: The app provides students with detailed analysis of their expenses and helps them identify areas where they can save money. For example, the app can show students how much they spend on eating out each month, and provide suggestions for how to cut down on that expense.
+Expense analysis: The app provides students with a detailed analysis of their expenses and helps them identify areas where they can save money. For example, the app can show students how much they spend on eating out each month, and provide suggestions for how to cut down on that expense.
 
 Customization: The app allows students to customize their experience by choosing their preferred currency, language, and categories for expenses.
 
@@ -17,7 +18,7 @@ HTML
 CSS
 
 ## Please Note:
-This project is still under development. This version of the application is a bare bones demo.
+This project has taken a halt in development. This version of the application is a bare-bones demo.
 
 ## Some Screenshots:
 ### Dashboard Page
